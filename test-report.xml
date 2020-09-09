@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/otnielvictoryfa/task2020/boilerplate-next.js/__tests__/pages/index.test.js">
+    <testCase name="Home rendering should render hello" duration="11"/>
+  </file>
+</testExecutions>
