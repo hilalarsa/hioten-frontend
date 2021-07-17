@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button } from 'antd';
-import DetailCarousel from "../components/global-component/Carousel";
+import DetailCarousel from "../components/global-component/DetailCarousel";
 export default class Home extends Component {
   render() {
     return (
