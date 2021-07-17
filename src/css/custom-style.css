@@ -1,2 +1,7 @@
 /*** Put your style here ***/
 @import '~antd/dist/antd.css';
+
+.detailProductImage {
+    max-width: 480px;
+    max-height: 480px;
+}

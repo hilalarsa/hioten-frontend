@@ -1,11 +1,11 @@
 import Paper from '@material-ui/core/Paper';
 import React from 'react';
-import MainLogo from '../components/global-component/MainLogo';
+//import MainLogo from '../components/global-component/MainLogo';
 
 export default function Custom404() {
     return (
         <div>
-            <MainLogo />
+            {/*<MainLogo />*/}
             <div className="main-content" id="mainContent">
                 <Paper id="mainSection" className="padding-36 txt-center-hoz" elevation={0}>
                     <h3>404 :)</h3>
