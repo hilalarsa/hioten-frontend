@@ -9,7 +9,7 @@ export default class Home extends Component {
           <p>Otniel Victory Febe Anwar</p>
           <p>Use this page as index or home of your website</p>
             <Button>Tes</Button>
-            <Card title={'Jurusan TI Polinema'} image={'components/global-component/MainLogo.jpg'} category={'Kampus - Jurusan'} description={'Lorem ipsum'} rating={2.5} allowHalfRate countRating={102}/>
+            <Card title={'Jurusan TI Polinema'} image={"public/MainLogo.jpg"} category={'Kampus - Jurusan'} description={'Lorem ipsum'} rating={2.5} allowHalfRate countRating={102}/>
         </div>
     );
   }
