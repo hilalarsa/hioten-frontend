@@ -1,2 +1,96 @@
 /*** Put your style here ***/
 @import '~antd/dist/antd.css';
+
+.detailProductImage {
+    max-width: 640px;
+    max-height: 640px;
+}
+
+.max1280{
+    max-width: 1280px;
+    width: 95%;
+}
+.whiteBackground{
+    background: white;
+}
+.centeredItem{
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    margin: 0 auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-32{
+    margin: 32px;
+}
+.padding-16{
+    padding: 16px;
+}
+.padding-24{
+    padding: 24px;
+}
+.margin-btm-16{
+    margin-bottom: 16px;
+}
+
+.margin-top-8{
+    margin-top: 8px;
+}
+.margin-top-4{
+    margin-top: 4px;
+}
+.margin-top-16{
+    margin-top: 16px;
+}
+.margin-top-32{
+    margin-top: 32px;
+}
+.margin-left-8{
+    margin-left: 8px;
+}
+.margin-right-8{
+    margin-right: 8px;
+}
+.margin-left-16{
+    margin-left: 16px;
+}
+.flex {
+    display: flex;
+}
+.grey{
+    color: #808080;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.right{
+    float: right;
+}
+.outlined{
+    outline-style: solid;
+    outline-width: 1px;
+    padding: 8px;
+    outline-color: #E2E2E2;
+    border-radius: 4px;
+}
+
+.max-2-char {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 2ch;
+}
+.font-12 {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    margin: 0
+}
