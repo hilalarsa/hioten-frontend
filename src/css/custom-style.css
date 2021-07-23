@@ -61,11 +61,18 @@ width:7.5vw;
 .margin-left-8{
     margin-left: 8px;
 }
+.margin-left-16{
+    margin-left: 16px;
+}
 .margin-right-8{
     margin-right: 8px;
 }
 .margin-left-16{
     margin-left: 16px;
+}
+
+.margin-btm-16{
+    margin-bottom: 16px;
 }
 .flex {
     display: flex;
@@ -80,6 +87,8 @@ width:7.5vw;
 
 .right{
     float: right;
+    margin-left: auto;
+    margin-bottom: 0;
 }
 .outlined{
     outline-style: solid;
@@ -103,4 +112,26 @@ width:7.5vw;
     font-style: normal;
     letter-spacing: normal;
     margin: 0
+}
+
+.font-14 {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    margin: 0
+}
+
+.bold{
+    font-style: oblique;
+}
+
+.center{
+    text-align: center;
+    align-self: center;
+}
+
+.zero-margin{
+    margin: 0;
 }
