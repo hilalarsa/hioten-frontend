@@ -1,2 +1,12 @@
 /*** Put your style here ***/
 @import '~antd/dist/antd.css';
+
+.cardComponent {
+    display:flex;
+    flex-direction:row;
+}
+.cardComponent > img {
+width:7.5vw;
+    height:15vh;
+
+}
