@@ -4,6 +4,7 @@
 .cardComponent {
     display:flex;
     flex-direction:row;
+    width:80vw !important;
 }
 .cardComponent > img {
 width:7.5vw;
