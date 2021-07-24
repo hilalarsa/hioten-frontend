@@ -1,21 +1,12 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import { Card, Rate } from 'antd';
-import {CommonNetworkCall} from "../../utils/NetworkCall";
 
 export default function CardComponent(props) {
     const { image, title, category, description, rating, allowHalfRate, countRating } = props;
-    const [images, setImage] = useState([])
-    useEffect(()=> {
-        getImages()
-    },[])
 
-    async function getImages(){
-        const data = await CommonNetworkCall("product-images/1","get")
-        if(data) setImage(data.images)
-    }
     return(
         <div className={"cardComponent"}>
-            <img src={images} />
+            <img src={image} />
             <Card>
                 <label>{title}</label>
                 <label>{category}</label>

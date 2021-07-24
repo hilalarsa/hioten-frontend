@@ -4,13 +4,12 @@
 .cardComponent {
     display:flex;
     flex-direction:row;
-    width:80vw;
+    /*width:90vw !important;*/
 
 }
 .cardComponent > img {
-width:7.5vw;
+    width:8vw;
     height:15vh;
-
 }
 
 .detailProductImage {
