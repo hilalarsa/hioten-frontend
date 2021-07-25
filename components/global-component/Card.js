@@ -9,7 +9,7 @@ export default function CardComponent(props) {
             <img src={image} />
             <Card>
                 <label>{title}</label>
-                <label>{category}</label>
+                <p>{category}</p>
                 <p>{description}</p>
                 <Rate allowHalf={allowHalfRate} defaultValue={rating}/>
                 <label>({countRating} reviews)</label>

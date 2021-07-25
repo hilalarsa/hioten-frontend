@@ -1,4 +1,7 @@
 import React, { useEffect, useState} from 'react';
+import { Input, Button } from 'antd';
+import { IoNotificationsOutline as NotifIcon, IoExitOutline as LogoutIcon } from 'react-icons/io5';
+import { CgProfile as ProfileIcon } from 'react-icons/cg';
 import Card from '../components/global-component/Card';
 import DetailCarousel from "../components/DetailComponent/DetailCarousel";
 import {CommonNetworkCall} from "../utils/NetworkCall";
@@ -18,8 +21,13 @@ export default function Home() {
     }
     return (
         <div>
-          <p>Otniel Victory Febe Anwar</p>
-          <p>Use this page as index or home of your website</p>
+            <div className={"cardComponent"}>
+                <Input placeholder="review vaksin coronavac"/>
+                <Button icon={<NotifIcon/>}/>
+                <Button icon={<ProfileIcon/>}>Daniel</Button>
+                <Button icon={<LogoutIcon/>}/>
+            </div>
+
             {images.map((item, number) => (
                 <Card title={'Jurusan TI Polinema'} category={'Kampus - Jurusan'} description={'Lorem ipsum'} rating={2.5} allowHalfRate countRating={102} image={item}/>
             ))}

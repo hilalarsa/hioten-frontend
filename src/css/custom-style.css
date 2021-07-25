@@ -4,8 +4,8 @@
 .cardComponent {
     display:flex;
     flex-direction:row;
-    /*width:90vw !important;*/
-
+    margin:1rem;
+    /*justify-content:space-evenly;*/
 }
 .cardComponent > img {
     width:8vw;
