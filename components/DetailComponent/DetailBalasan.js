@@ -20,7 +20,7 @@ export default function DetailBalasan(props) {
     }
 
     return (
-        <div className={"outlined"}>
+        <div className={"outlined margin-btm-32"}>
             <span className={"grey font-12 flex"}>
                 <p><b>Otniel Vic</b></p>
                 <p className={"right"}>{moment().startOf('hour').fromNow()}</p>

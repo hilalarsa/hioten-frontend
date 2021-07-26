@@ -10,6 +10,10 @@
     max-width: 1280px;
     width: 95%;
 }
+.scrollable-content{
+    overflow: auto;
+    height: 100vh;
+}
 .whiteBackground{
     background: white;
 }
@@ -26,6 +30,11 @@
 .margin-32{
     margin: 32px;
 }
+
+.margin-rl-32{
+    margin-right: 32px;
+    margin-left: 32px;
+}
 .padding-16{
     padding: 16px;
 }
@@ -34,6 +43,10 @@
 }
 .margin-btm-16{
     margin-bottom: 16px;
+}
+
+.margin-btm-32{
+    margin-bottom: 32px;
 }
 
 .margin-top-8{

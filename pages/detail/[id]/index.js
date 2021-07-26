@@ -33,12 +33,12 @@ export default function Detail(props) {
 
     return (
         <div className={"centeredItem whiteBackground"}>
-            <div className={"max1280 margin-32"}>
+            <div className={"max1280 margin-rl-32"}>
                 <Row gutter={16}>
                     <Col xs={24} sm={12}>
                         <DetailCarousel/>
                     </Col>
-                    <Col xs={24} sm={12}>
+                    <Col xs={24} sm={12} className={"scrollable-content"}>
                         <Card className={"padding-24"}>
                             <Title level={5}>Macbook Air M1 2020</Title>
                             <div className="flex">
@@ -66,17 +66,18 @@ export default function Detail(props) {
                                     <img height={20} src="/icons/ic_camera_upload.png"/>
                                 </Upload>
                             </div>
-                            <HiotenButton className={"margin-top-16"} width="fullWidth" color="primary">Posting</HiotenButton>
-                            <p className={"margin-top-32 grey"}>300 Tanggapan</p>
-                            <DetailBalasan/>
-
+                            <HiotenButton className={"margin-top-16"} width="fullWidth"
+                                          color="primary">Posting</HiotenButton>
                         </Card>
+                        <p className={"margin-top-32 grey"}>300 Tanggapan</p>
+                        <DetailBalasan/>
+                        <DetailBalasan/>
+                        <DetailBalasan/>
+
                     </Col>
 
                 </Row>
             </div>
         </div>
-
-
     );
 }
