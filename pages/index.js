@@ -27,11 +27,12 @@ export default function Home() {
                 <Button icon={<ProfileIcon/>}>Daniel</Button>
                 <Button icon={<LogoutIcon/>}/>
             </div>
-
-            {images.map((item, number) => (
-                <Card title={'Jurusan TI Polinema'} category={'Kampus - Jurusan'} description={'Lorem ipsum'} rating={2.5} allowHalfRate countRating={102} image={item}/>
-            ))}
-
+            <div className={"wrapperCard"}>
+                <h1>Gabut ???</h1>
+                {images.map((item, number) => (
+                    <Card title={'Jurusan TI Polinema'} category={'Kampus - Jurusan'} description={'Lorem ipsum'} rating={2.5} allowHalfRate countRating={102} image={item}/>
+                ))}
+            </div>
             <DetailCarousel/>
         </div>
     );

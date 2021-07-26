@@ -7,7 +7,7 @@ export default function CardComponent(props) {
     return(
         <div className={"cardComponent"}>
             <img src={image} />
-            <Card>
+            <Card bordered={false}>
                 <label>{title}</label>
                 <p>{category}</p>
                 <p>{description}</p>
