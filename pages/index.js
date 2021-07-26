@@ -29,11 +29,25 @@ export default function Home() {
             </div>
             <div className={"wrapperCard"}>
                 <h1>Gabut ???</h1>
+                <div className={"wrapperCategoryMenu"}>
+                    <div>
+                        <img src={images[1]}/>
+                        <label>Label category</label>
+                    </div>
+                    <div>
+                        <img src={images[1]}/>
+                        <label>Label category</label>
+                    </div>
+                    <div>
+                        <img src={images[1]}/>
+                        <label>Label category</label>
+                    </div>
+                </div>
                 {images.map((item, number) => (
                     <Card title={'Jurusan TI Polinema'} category={'Kampus - Jurusan'} description={'Lorem ipsum'} rating={2.5} allowHalfRate countRating={102} image={item}/>
                 ))}
             </div>
-            <DetailCarousel/>
+            {/*<DetailCarousel/>*/}
         </div>
     );
 }
